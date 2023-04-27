@@ -1,4 +1,0 @@
-@function img($image){
-    $path: '/img/';
-    @return $path + $image;
-}
