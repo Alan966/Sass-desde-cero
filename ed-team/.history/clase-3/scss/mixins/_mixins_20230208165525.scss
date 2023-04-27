@@ -1,0 +1,12 @@
+@mixin button{
+   @if $buttons{
+    .button{
+        display: inline-block;
+        margin: 1rem;
+
+        a{
+            text-decoration: none;
+        }
+    }
+   }
+}

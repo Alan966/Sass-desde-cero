@@ -1,0 +1,26 @@
+body {
+  background: #c17fa1;
+  color: #222; }
+
+body {
+  background: #ff8000; }
+
+/* Funciones Sass para color
+
+RGB
+Retoran el color de red , green , blue de un color
+    red($color)
+    green($color)
+    blue($color)
+
+HSL
+    hue($color)
+    saturation($color)
+    lightness($color)
+
+    darken($color, cantidad)
+    lihten($color, cantidad)
+    dsesaturate($color, cantidad)
+    adjust-hue($color, cantidad)
+
+*/

@@ -1,0 +1,14 @@
+$color: red;
+$size : 200px;
+
+body{
+    padding-top: $size;
+    $width:20px;
+    margin: $width;
+}
+
+p{
+    $size:20px;
+    margin: $width;
+    padding-top: $size;
+}

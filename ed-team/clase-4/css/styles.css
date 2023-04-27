@@ -1,0 +1,39 @@
+body {
+  font-size: 20px;
+  font-size: 1.25em;
+  background: url("/assets/img/imagen.jpg"); }
+
+/*
+    Funciones de strings
+    quote($string) agrega comillas a un string
+    unquote($string) quita las comillas a un string
+    str-length($string)
+    str-index($string, $value) un valor dentro del string
+    str-lenght($string) cantidad de caracteres
+*/
+body {
+  border: 1px solid red;
+  color: 4;
+  background: SOLID;
+  color: yellow; }
+  body::before {
+    content: "solid"; }
+
+body {
+  width: 33.33333%;
+  width: 55px;
+  width: 9; }
+
+div {
+  border-color: red;
+  border-color: 3;
+  border-color: 1px, solid, red, 1px, dotted, green;
+  border: 1px solid red;
+  border-color: green;
+  border-color: red; }
+
+div {
+  background: red; }
+
+span {
+  color: true; }

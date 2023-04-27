@@ -1,0 +1,113 @@
+$primary-color: red;
+$size : 200px;
+$width: 200px;
+$primary-color: blue !default;
+$color:red;
+
+
+.#{$color}{
+    color: $color;
+}
+
+
+
+body{
+    padding-top: $size;
+    $width:20px;
+    margin: $width;
+    color: $primary-color;
+}
+
+p{
+    $size:20px;
+    margin: $width;
+    padding-top: $size;
+    width: calc(100% - #{$size});
+}
+
+//anidamiento
+
+ul{
+    margin: 0;
+    li{
+        margin: 0;
+    }
+
+    a{
+        display: block;
+    }
+
+    span{
+        color: red;
+    }
+
+    @media screen and (min-width: 640px){
+        display: flex;
+    }
+
+    animation: menu 1s;
+
+    @keyframes menu{
+        to{
+            color: red;
+        }
+    }
+
+    &:hover{
+        color:red
+    }
+
+    &::before{
+        content: "hola";
+    }
+
+    li{
+        text-decoration: none;
+    }
+}
+
+
+
+.menu{
+    display: block;
+    &-item{
+        color:red;
+    }
+
+    grid-template: {
+        columns: 100px 100px;
+        rows: auto;
+    }
+}
+
+//Tipos de datos
+//strings
+//numeros
+//colores
+//booleans
+//maps
+//lists
+
+// $var: quote("hola");
+// $var: unquote("hola");
+// $var: 5s;
+// $var : darken(white, 20);
+// $var: false;
+// $var: 1px solid red;
+
+
+$var:(
+    primario: red,
+    secundario: blue,
+    terciario: yellow
+);
+
+body{
+    background: type-of($var);
+    color: map-get($map: $var, $key:primario );
+}
+
+$var: 20px;
+
+//Import
+@import "menu";

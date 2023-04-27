@@ -1,0 +1,91 @@
+body {
+  display: block; }
+
+.button span, .button-alert {
+  color: red;
+  margin: 0;
+  font-size: 1rem; }
+
+.button {
+  display: inline-block;
+  margin: 1em 0;
+  padding: .5em 1.5em;
+  margin: 0; }
+  .button span {
+    color: red; }
+
+.button-alert {
+  background: red;
+  color: #fff; }
+
+.button:hover, .button.active {
+  transform: translateY(-5px); }
+
+* {
+  display: block; }
+
+.primary {
+  background: blue; }
+
+.column-30 {
+  width: 30%; }
+
+.column-35 {
+  width: 35%; }
+
+.column-40 {
+  width: 40%; }
+
+.column-45 {
+  width: 45%; }
+
+.column-50 {
+  width: 50%; }
+
+.column-55 {
+  width: 55%; }
+
+.column-60 {
+  width: 60%; }
+
+.column-65 {
+  width: 65%; }
+
+.column-70 {
+  width: 70%; }
+
+.column-75 {
+  width: 75%; }
+
+.column-80 {
+  width: 80%; }
+
+.column-85 {
+  width: 85%; }
+
+.column-90 {
+  width: 90%; }
+
+.column-95 {
+  width: 95%; }
+
+.column-100 {
+  width: 100%; }
+
+.button-red {
+  background: red; }
+
+.button-green {
+  background: green; }
+
+.button-blue {
+  background: blue; }
+
+.button-primary {
+  background: red; }
+
+.button-secondary {
+  background: green; }
+
+.button-tertiary {
+  background: blue; }

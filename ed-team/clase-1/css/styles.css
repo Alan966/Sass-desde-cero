@@ -1,0 +1,50 @@
+.red {
+  color: red; }
+
+body {
+  padding-top: 200px;
+  margin: 20px;
+  color: red; }
+
+p {
+  margin: 200px;
+  padding-top: 20px;
+  width: calc(100% - 20px); }
+
+ul {
+  margin: 0;
+  animation: menu 1s; }
+  ul li {
+    margin: 0; }
+  ul a {
+    display: block; }
+  ul span {
+    color: red; }
+  @media screen and (min-width: 640px) {
+    ul {
+      display: flex; } }
+
+@keyframes menu {
+  to {
+    color: red; } }
+  ul:hover {
+    color: red; }
+  ul::before {
+    content: "hola"; }
+  ul li {
+    text-decoration: none; }
+
+.menu {
+  display: block;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: auto; }
+  .menu-item {
+    color: red; }
+
+body {
+  background: map;
+  color: red; }
+
+.menu {
+  display: block;
+  margin: 2000px; }

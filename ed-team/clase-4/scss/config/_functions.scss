@@ -1,0 +1,22 @@
+@function mi-funcion(){
+    //loica de la funcion
+    @return $value
+};
+
+@function double($number){
+    @if type-of($number) == number{
+        @return $number * 2;
+    }
+    @return null;
+};
+
+@function em($px, $base: 16px){
+    @if type-of($px) == number and unit($px) == 'px'{
+        @return $px / $base * 1em;
+    }
+    @return null;
+};
+
+@function img($image){
+    @return url($path + $image);
+}

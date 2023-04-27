@@ -1,0 +1,16 @@
+body {
+  background: blue; }
+
+body {
+  color: red; }
+  body p {
+    display: inline-block; }
+
+p {
+  color: green; }
+
+body {
+  background: blue; }
+
+.button {
+  color: red; }

@@ -1,0 +1,19 @@
+$primary-color: red;
+$color: red;
+$size : 200px;
+$width: 200px;
+$primary-color: blue !default;
+
+
+body{
+    padding-top: $size;
+    $width:20px;
+    margin: $width;
+    color: $primary-color;
+}
+
+p{
+    $size:20px;
+    margin: $width;
+    padding-top: $size;
+}

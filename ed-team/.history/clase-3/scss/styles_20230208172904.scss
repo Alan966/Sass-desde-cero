@@ -1,0 +1,12 @@
+@import "config/varibles";
+@import "mixins/mixins";
+
+// $buttons: false;
+// parametro el nombre de la variable
+// argumento el valor de la variable real
+
+    @include button(map-keys($button-colors)...);
+
+    .menu{
+        @include menu;
+    }

@@ -1,0 +1,9 @@
+$color: red;
+$size : 200px;
+body{
+    background-color: $color;
+    color: blue;
+    border-radius: 2rem;
+    position: fixed;
+    top: 0;
+}

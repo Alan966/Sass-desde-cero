@@ -1,0 +1,9 @@
+@import "config/functions";
+
+body{
+    background-color: red;
+}
+.text{
+    text-shadow: long-shadow(10, darken(red, 5));
+    font-size: 2em;
+}
